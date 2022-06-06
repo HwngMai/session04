@@ -396,52 +396,53 @@
     </section>
     <!-- CONTACT -->
     <section class="contact">
-      <fieldset>
-        <legend>Thông tin cá nhân</legend>
-        <form action="#" method="get">
-          <label for="name">Name</label>
-          <input
-            type="text"
-            id="name"
-            placeholder="Enter your name here"
-            maxlength="10"
-          />
-          <input type="text" value="KH001" readonly />
-          <input type="text" value="KH001" disabled />
-          <input
-            type="tel"
-            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
-            name="phone"
-            id="phone"
-            placeholder="Enter your phone number"
-          />
-          <br />
-          <input type="email" name="" id="" placeholder="Enter your email" />
-          <input type="password" placeholder="Enter passwords" />
-          <input type="submit" value="SUBMIT YOUR ASS HERE" />
-          <input type="reset" /><br />
-          <input type="day" placeholder="Enter day" />
-          <input type="file" name="" id="" />
-          <textarea name="" id="" cols="30" rows="10"></textarea>
-          <select name="" id="">
-            <option value="">Giới tính</option>
-            <option value="">Nam</option>
-            <option value="">Nữ</option>
-            <option value="">Bê đê</option>
-            <input type="checkbox" name="subject" id="" value="Lining" />
-            <label for="Lining">Lining</label>
-            <input type="checkbox" name="subject" id="" value="Yonex" />
-            <label for="Yonex">Yonex</label>
-            <input type="checkbox" name="subject" id="" value="Victor" />
-            <label for="Victor">Victor</label>
-            <br />
-            <input type="radio" name="gender" id="male" />
-            <label for="Male">Male</label>
-            <input type="radio" name="gender" id="male" value="Female" />
-            <label for="Female">Female</label>
-          </select>
-        </form>
-      </fieldset>
+      <div class="contact__content">
+        <h2>CONTACT</h2>
+        <div class="contact__form">
+          <form>
+            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Last Name" />
+            <input type="email" placeholder="Email" />
+            <input type="tel" placeholder="Phone" />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+            <button type="submit">Click to Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="contact__content">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.683062771299!2d106.75341011490583!3d10.835548592281409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527b1796ed827%3A0x1ec4ea88ffe735bb!2zMjYgxJAuIFPhu5EgMTIsIFRyxrDhu51uZyBUaOG7jSwgVGjhu6cgxJDhu6ljLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1654509935415!5m2!1svi!2s"
+          width="95%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div class="contact__content">
+        <div class="contact__content--item">
+          <i class="fa fa-candy-cane"></i>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum.</p>
+        </div>
+        <div class="contact__content--item">
+          <i class="fa fa-adjust"></i>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum.</p>
+        </div>
+        <div class="contact__content--item">
+          <i class="fab fa-angellist"></i>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum.</p>
+        </div>
+      </div>
     </section>
     <!-- FOOTER -->
     <footer></footer>
