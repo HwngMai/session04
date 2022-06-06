@@ -42,6 +42,9 @@ button:hover{
     background-color: white;
     border-color: var(--main-color);
 }
+input{
+    margin: 10px 10px;
+}
 /* HEADER */
 header {
     background-color: var(--2nd-color);
@@ -91,10 +94,10 @@ header {
 /* CAROUSEL */
 .carousel {
     background-image: url("../img/b4.jpg");
-    background-position: center bottom;
+    background-position: center top;
+    background-position-y: 10%;
     height: 500px;
     background-size: cover;
-    background-position: center;
     color: rgb(0, 0, 0);
     text-align: center;
     /* ---- */
@@ -102,12 +105,13 @@ header {
     justify-content: center;
     align-items: center;
 }
-.carousel__content h1 {
+.carousel__content h1{
     font-size: 3.5rem;
 }
-.carousel__content p {
+.carousel__content p{
     font-size: 1.2rem;
     margin: 1rem 0 1rem 0;
+    text-align: center;
 }
 /* INTRO */
 .intro {
@@ -254,7 +258,11 @@ header {
 }
 .service__content--item h3{
     font-size: 1.5rem;
-    margin: 1rem 0;
+    margin-top: 1rem ;
+}
+.service__content--item p{
+    text-align: center;
+    margin-bottom: 1rem ;
 }
 .service__content--item button{
     padding: 0.5rem 1rem;
@@ -372,7 +380,7 @@ header {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2 ,420px);
     gap: 1rem;
-    margin: 0 auto;
+    margin: 0 auto 1rem auto;
 
 }
 .team__item {
@@ -405,6 +413,7 @@ header {
     padding: 5px;
     margin: 0;
 }
+
 .team__item--detail {
     position: absolute;
     width: 100%;
@@ -429,3 +438,45 @@ header {
 .team__item--detail:hover{
     opacity: 1;
 }
+/* FEEDBACK */
+.feedback{
+    background-image: url(../img/h1.png);
+    background-size: cover;
+    background-position-y: 24%;
+    padding: 50px 0;
+    /* ---- */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.feedback h2{
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+.feedback__content{
+    width: 80%;
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    background-color: rgba(182, 182, 182, 0.3);
+}
+.feedback__item{
+    width: 100%;
+    /* ---- */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.feedback__item p{
+    padding-top: 1rem;
+    text-align: center;
+}
+.feedback__item p:nth-child(2){
+    font-weight: bold;
+}
+.feedback .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background-color: var(--main-color);
+}
+/* CONTACT */
+
