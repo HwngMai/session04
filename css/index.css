@@ -632,3 +632,16 @@ footer{
      justify-content: center;
      align-items: center;
 }
+/* BACK TO TOP BUTTON */
+.backtotop{
+    position:fixed;
+    right: 2rem;
+    bottom: 2rem;
+}
+.backtotop i{
+    font-size: 1.5rem;
+    border: 1.5px solid var(--3rd-color);
+    padding: 1rem;
+    border-radius: 50%;
+    line-height: 1.15rem;
+}
