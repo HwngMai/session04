@@ -5,3 +5,4 @@ Simple bakery landing page w/
 - hover effect on gallery/img
 - slider
 - form
+- back to top button
