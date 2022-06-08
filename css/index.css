@@ -557,3 +557,78 @@ header {
     text-align: center;
     font-size: 3rem;
 }
+/* FOOTER */
+footer{
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding: 1rem 0;
+    /* ---- */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.footer__content{
+    width: 100%;
+    padding: 0 1rem;
+    /* ---- */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 3rem;
+    /* ---- */
+    line-height: 200%;
+}
+.footer__item{
+    width: 24%;
+}
+.footer__item h3{
+    font-size: 400;
+    padding: 5px;
+    color: var(--main-color)
+}
+.footer__item--time{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem
+}
+.footer__item hr{
+    border: 1px dashed;
+}
+.footer__item--time p:nth-child(2){
+    text-align: right;
+}
+.footer__item i{
+    font-size: 3rem;  
+}
+.footer__item--social{
+    text-align: center;
+    word-spacing: 3rem;
+}
+.footer__item .footer__sub input{
+    width: 75%;
+    height: 2rem;
+    margin: 1rem 5px;
+    display: block;
+    /* ---- */
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.footer__item .footer__sub button{
+    padding: 0.5rem 1rem;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.footer__item .footer__sub input::placeholder {
+    padding-left: 1rem;
+    font-family: 'Montserrat', sans-serif;
+ }
+ .footer__content:last-child{
+
+     /* ---- */
+     justify-content: center;
+     align-items: center;
+}
